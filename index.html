@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+  <title>Café K - By Jwaria</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Café K</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#offers">Offers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Where Coffee Meets Glam</h2>
+    <p>Serving sweetness, style & sips ☕💖</p>
+    <button class="cta-button" onclick="document.getElementById('menu').scrollIntoView({behavior: 'smooth'})">Explore Menu</button>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="section-title">About Jwaria</h2>
+    <p class="about-text">Hey there! I’m <strong>Jwaria</strong>, a Computer Science student from Mehdipatnam with a passion for baking and building. Café K is my digital dream—a cozy corner of glam treats and good vibes only! ✨</p>
+  </section>
+
+  <section class="menu-section" id="menu">
+    <h2 class="section-title">Our Signature Menu</h2>
+    <div class="menu-grid">
+      <div class="menu-item"><img src="https://anchorcaribbean.com/wp-content/uploads/2020/07/homemade-baked-croissants-on-wooden-rustic-backgro-XYTPSHG-scaled.jpg"><h3>Pink Velvet Croissant</h3><p class="price">₹129</p><button onclick="addToCart('Pink Velvet Croissant')">Add to Cart</button></div>
+      <div class="menu-item"><img src="http://www.yourcupofcake.com/wp-content/uploads/2012/03/Pink-Confetti.jpg"><h3>Strawberry Swirl Cupcake</h3><p class="price">₹149</p><button onclick="addToCart('Strawberry Swirl Cupcake')">Add to Cart</button></div>
+      <div class="menu-item"><img src="https://img.freepik.com/premium-photo/pink-milk-frappe-pink-milkshake_1197797-97468.jpg?w=996"><h3>Rose Frappe Magic</h3><p class="price">₹179</p><button onclick="addToCart('Rose Frappe Magic')">Add to Cart</button></div>
+      <div class="menu-item"><img src="https://www.red17.com/pics/2018/04/receta_pink_latte3.jpg"><h3>Blush Latte Bliss</h3><p class="price">₹199</p><button onclick="addToCart('Blush Latte Bliss')">Add to Cart</button></div>
+      <div class="menu-item"><img src="https://tse1.mm.bing.net/th/id/OIP.PNYR3ydD-VZaOsNUaiz_7gHaE7?pid=Api&P=0&h=180"><h3>Raspberry Macaron Kiss</h3><p class="price">₹89</p><button onclick="addToCart('Raspberry Macaron Kiss')">Add to Cart</button></div>
+      <div class="menu-item"><img src="https://tse2.mm.bing.net/th/id/OIP.JteCug4WdLAVa0gfdZYRGgHaE8?pid=Api&P=0&h=180"><h3>Cotton Candy Milkshake</h3><p class="price">₹169</p><button onclick="addToCart('Cotton Candy Milkshake')">Add to Cart</button></div>
+      <div class="menu-item"><img src="https://goodcheapeats.com/wp-content/uploads/2023/02/cherry-cheesecake-hero-8.jpg"><h3>Cherry Cheesecake Slice</h3><p class="price">₹159</p><button onclick="addToCart('Cherry Cheesecake Slice')">Add to Cart</button></div>
+      <div class="menu-item"><img src="https://www.windingcreekranch.org/wp-content/uploads/2022/07/Starbucks-iced-white-chocolate-mocha-add-straw-1.jpg"><h3>Iced White Mocha Dream</h3><p class="price">₹189</p><button onclick="addToCart('Iced White Mocha Dream')">Add to Cart</button></div>
+    </div>
+  </section>
+
+  <section class="offers" id="offers">
+    <h2 class="section-title">Special Offers</h2>
+    <p class="offer-highlight">🎉 Free Cupcake on orders above ₹500! 🎉</p>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <h2 class="section-title">Say Hello 💌</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p class="social-links">Follow me on Instagram: <a href="https://instagram.com/_juveriaaaa06" target="_blank">@_juveriaaaa06</a></p>
+    <p>📞 Phone: 7287883510</p>
+    <p>📍 Based in Mehdipatnam</p>
+  </section>
+
+  <footer>
+    <p>Made with 💖 by Jwaria | © 2025 Café K</p>
+  </footer>
+</body>
+</html>
